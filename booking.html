@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Plot Visit | Namma Oru Plot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #6a0dad;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #6a0dad;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #4e0787;
+        }
+        .back-link {
+            margin-top: 20px;
+            display: inline-block;
+            text-decoration: none;
+            color: #6a0dad;
+        }
+    </style>
+</head>
+<body>
+    <h1>Book Your Plot Visit</h1>
+    <p>Fill out this form and we will contact you shortly!</p>
+    
+    <form action="https://formsubmit.co/thinkpositivefaizu@gmail.com" method="POST">
+        <input type="text" name="Name" placeholder="Your Full Name" required>
+        <input type="email" name="Email" placeholder="Your Email" required>
+        <input type="tel" name="Phone" placeholder="Your Phone Number" required>
+        <input type="date" name="Preferred Date" required>
+        <textarea name="Message" placeholder="Any specific requirements?" rows="4"></textarea>
+        
+        <input type="hidden" name="_captcha" value="false">
+        
+        <button type="submit">Submit Booking</button>
+    </form>
+    
+    <a class="back-link" href="index.html">← Back to Home</a>
+</body>
+</html>
